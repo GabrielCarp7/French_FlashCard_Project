@@ -60,7 +60,7 @@ window = Tk()
 window.title("Flashy")
 window.config(padx=50, pady=50, background="#B1DDC6")
 
-# After a delay of 3 sec or 3000 ms change the card to english
+# After a delay of 3 sec change the card to english
 flip_timer = window.after(3000, func=change_card)
 
 # Implementing the images
