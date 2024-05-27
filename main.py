@@ -28,8 +28,6 @@ def right_button():
     canvas.itemconfig(canvas_image, image=card_front)
     flip_timer = window.after(3000, func=change_card)
 
-    # Deleting the word that is known to user
-
     try:
         words_list.remove(word)
     except pandas.errors.EmptyDataError:
